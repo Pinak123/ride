@@ -1,12 +1,8 @@
-import FootNav from "./FootNavbar";
-
-
 
 export default function Dashboard(){
     return (
     <>
-        <h1>Dashboard</h1>
-        <FootNav/>
+        <h1>DashBoard</h1>
     </>
     );
 }

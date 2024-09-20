@@ -4,6 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
   { name: 'Map', href: '#', current: false },
+  { name: 'login', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -28,7 +29,7 @@ export default function NavbarComp() {
             <div className="flex flex-shrink-0 items-center">
               <img
                 alt="Your Company"
-                src="../assets/logo.svg"
+                src="https://github.com/Pinak123/ride/blob/master/my-project/src/assets/logo.svg"
                 className="h-8 w-auto"
               />
             </div>

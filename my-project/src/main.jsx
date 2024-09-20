@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Layout from './Layout.jsx'
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 import './index.css'
 import {
@@ -17,6 +19,10 @@ const router = createBrowserRouter([
       
       {
         path: "",
+        element: <Dashboard/>
+      },
+      {
+        path: "lg",
         element: <Dashboard/>
       }
     ],
