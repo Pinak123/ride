@@ -1,12 +1,12 @@
 import { Outlet } from 'react-router-dom'
-import BottomNavbar from './components/FootNavbar'
+import NavbarComp from './components/Navbar'
 
 function Layout() {
   return (
     <>
-      
+      <NavbarComp/>
       <Outlet/>
-      <BottomNavbar/>
+      
     </>
   )
 }

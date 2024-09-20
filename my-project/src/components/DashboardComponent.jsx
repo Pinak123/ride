@@ -1,8 +1,13 @@
+import DashboardContent from "./DashboardContent";
+import Sidebar from "./Sidebar";
 
-export default function Dashboard(){
-    return (
-    <>
-        <h1>DashBoard</h1>
-    </>
-    );
+function Dashboard() {
+  return (
+    <div className="flex min-h-screen bg-gray-100">
+      <Sidebar/>
+      <DashboardContent/>
+    </div>
+  );
 }
+
+export default Dashboard
