@@ -2,7 +2,7 @@ import logo from '../assets/logo.svg'
 function Login() {
   return (
     <>
-        <div className="flex justify-center items-center h-screen bg-gray-100">
+    <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="bg-white w-full max-w-md flex shadow-lg rounded-lg overflow-hidden">
         <div className="w-1/2 p-5">
           <div className="flex flex-col items-center justify-center">
