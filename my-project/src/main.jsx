@@ -10,6 +10,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Dashboard from './components/DashboardComponent.jsx'
+import Login from './components/Login.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
       },
       {
         path: "lg",
-        element: <Dashboard/>
+        element: <Login/>
       }
     ],
   },
