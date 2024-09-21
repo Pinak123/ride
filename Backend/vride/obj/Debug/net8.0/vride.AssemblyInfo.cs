@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vride")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1b086cea473a6cd8569cb205df1b49230717749")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0215cc278037997302331690334865b85dace260")]
 [assembly: System.Reflection.AssemblyProductAttribute("vride")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vride")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

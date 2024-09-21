@@ -9,7 +9,7 @@ function Login() {
           <img
             src={logo} // Replace with your logo URL
             alt="vRide Logo"
-            className="w-24 h-24 md:w-36 md:h-36 rounded-circle"
+            className="w-24 h-24 md:w-36 md:h-36 rounded"
           />
           <h2 className="text-2xl md:text-4xl font-semibold mt-4 text-center">
             Unlock Campus Rides with Ease

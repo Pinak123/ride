@@ -1,6 +1,8 @@
 @vride_HostAddress = http://localhost:5171
 
-GET {{vride_HostAddress}}/weatherforecast/
+GET {{vride_HostAddress}}/api/Login/
 Accept: application/json
 
 ###
+POST {{vride_HostAddress}}/api/Register/
+Accept: application/json

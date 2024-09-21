@@ -7,6 +7,8 @@ namespace vride.DTOs
         [Required]
         public string Username { get; set; }
         [Required]
+        public string Reg_no { get; set; }
+        [Required]
         public string password { get; set; }
     }
 }
